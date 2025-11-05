@@ -4,11 +4,11 @@ app:
   notify: appz@cloudbourne.co
 
 build:
-  version: 3.1
+  version: 2.15
   env: DEV
   build_file: none
   output_files: output/*.zip
-  image_template: elasticsearch-6.8
+  image_template: opensearch-2.15
   image_name: alpha/log-collector-es
 
 deploy:
